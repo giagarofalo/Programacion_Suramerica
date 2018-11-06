@@ -9,3 +9,73 @@ Reto número 1 extraer información del pdf: lisim
 4)Desarrollo de front Style y diseño.
 
 
+
+
+Adjunto información del reto:
+
+El reto consiste en el leer el pdf adjunto y sacar la siguiente información:
+
+
+
+Resguardo Indígena
+Nombre señor (a)
+Número de documento
+Fecha de los censos
+Lugar y fecha donde se expide:
+URL de verificacion
+Teniendo dicha información se debe crear un servicio rest o soap que muestra la información, se puede realizar en cualquier lenguaje de programación.
+
+
+El pdf está adjunto en este repositorio:
+
+las variables a capturar se encuentra:
+
+Nombre letra mayúscula
+el id:números enteros
+y el dato del censo.  
+
+Para ejemplos de como funcionaría el primer código:
+
+-https://www.intowindows.com/extract-text-from-pdf-files/
+
+
+Adjunto un modelo de formulario para subir archivos:
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+  <form enctype="multipart/form-data"
+        action="http://example.org/wmqfte/file/agent/AGENT1@QM1/webuploads"
+        method="POST">
+   <input type="HIDDEN" name="dest-exists-action" value="overwrite"/>
+   <input type="HIDDEN" name="type" value="text"/>
+   <input type="HIDDEN" name="jobname" value="TEST"/>
+   <input type="HIDDEN" name="priority" value="1"/>
+   <input type="HIDDEN" name="checksum" value="NONE"/>
+   <input type="HIDDEN" name="metadata" value="fred=awesome,bob=cool"/>
+   <input type="HIDDEN" name="metadata" value="lewis=fast,niall=slow"/>
+   <input type="HIDDEN" name="postdest" 
+          value="[command=D:\postdest.cmd,type=executable,successrc=0]"/>
+   <input type="HIDDEN" name="postdest-args" value="[fred]"/>
+   File: <input type="FILE" name="file"/>
+   <input type="submit" name="Upload" value="Upload" />
+  </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
