@@ -3,9 +3,9 @@ Hola Chicos!
 
 Reto número 1 extraer información del pdf: lisim
 
-1)desarrollar código para captura de archivo pdf en html/php
-2)desarrollo de código para captura de variables y envio a la base. Insert y consulta.
-3)creación de base
+1)desarrollar código para captura de archivo pdf en html/php: se hará conhttps://pdfparser.org/demo  descargar y resolver los de composer.
+2)desarrollo de código para captura de variables y envio a la base. Insert y consulta.: Fopen("prueba.txt, ""r+") strileng
+3)creación de base.  
 4)Desarrollo de front Style y diseño.
 
 
