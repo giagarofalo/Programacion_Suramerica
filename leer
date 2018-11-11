@@ -71,8 +71,13 @@ Adjunto un modelo de formulario para subir archivos:
 
 la pregunta es una vez que se sube el archivo  este queda guardado y que proceso se debe hacer para que lo lea y tome las variables que necesitamos.
 
+<!--te respondo con una busqueda de info que encontre en la web, creo complementa lo que se lleva
+hasta el momento y nos acerca mucho a lo que se quiere lograr, se trata del programa "PDF Parser", dejo comentado el link 
+para estudio-->
+
 
 https://github.com/spatie/pdf-to-text/blob/master/README.md
+
 
 
 http://php.net/manual/es/function.fopen.php
